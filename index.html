@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buchstabierhilfe</title>
+</head>
+<body>
+    <header>
+        <h1>Willkommen in der Buchstabierhilfe</h1>
+    </header>
+    <body>
+        <form onsubmit="spellWord()">
+            
+            <label for="spellword">Hier Wort eingeben:</label><br>
+            <input type="text" name="Wort" id="spellword"><br>
+            
+            <button type="submit">
+                Buchstabieren!
+            </button>
+        </form>
+        <hr>
+        <p>Zu buchstabierendes Wort:</p>
+        <div id="div1">
+            <p id="p1"></p>
+        </div>
+
+        <p>Deutsch:</p>
+        <div id="ausgabeDeutsch">
+
+        </div>
+        <p>International:</p>
+        <div id="ausgabeNATO">
+
+        </div>
+        
+    <script language="javascript" type="text/javascript" src="script.js"></script>
+    </body>
+</body>
+</html>
