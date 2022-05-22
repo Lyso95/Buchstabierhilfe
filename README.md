@@ -1,7 +1,8 @@
 <h1>Buchstabierhilfe</h1>
-<p>Eine selbsterklärende Buchstabierhilfe, der Input wird aktuell nicht zwischengespeichert. <br>
-Ich gebe zu sie ist aktuell quick and dirty mit meinen aktuellen Java-Script-Kenntnissen geschrieben. <br>
-Sie ist eigentlich selbsterklärend, im Folgenden erhaltet ihr eine kurze Übersicht</p>
+<p>
+  Eine selbsterklärende Buchstabierhilfe, der Input wird aktuell nicht zwischengespeichert. <br>
+  Ich gebe zu sie ist aktuell quick and dirty mit meinen aktuellen Java-Script-Kenntnissen geschrieben.
+</p>
 
 <h2>Die Eingabemaske</h2>
 <p>
