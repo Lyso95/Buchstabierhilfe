@@ -5,28 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buchstabierhilfe</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Willkommen in der Buchstabierhilfe</h1>
-    </header>
-    <body>
-        
-        <fieldset>
-            <h3>Input</h3>
-            <input type="text" name="key" id="inpKey" value="Wort" disabled><br>
-            <input type="text" name="word" id="inpWord" placeholder="Wort"></input><br>
-            <button type="submit" id="inpButtonDe">Deutsch</button><button type="submit" id="inpButtonInt">International</button>
-        </fieldset>
-        <hr>
-        <fieldset>
-            <h3>Output</h3>
-            <div id="toSpell" class="output"></div>
-            <hr>
-            <div id="spellOutput" class="output"></div>
-        </fieldset>
+    <div class="d-flex flex-column justify-content-center p-lg-5">   
+        <div class="mb-5">
+            <header>
+                <h1>Willkommen in der Buchstabierhilfe</h1>
+            </header>
+        </div>     
+
+        <div class="mb-5 col-10 col-md-6 col-lg-4">
+            <fieldset>
+                <h2>Eingabe</h2>
+                <input type="text" name="key" id="inpKey" value="Wort" disabled><br>
+                <input type="text" name="word" id="inpWord" placeholder="Wort" class="form-control"></input><br>
+                <button type="submit" id="inpButtonDe" class="btn btn-primary">Deutsch</button>
+                <button type="submit" id="inpButtonInt" class="btn btn-secondary">International</button>
+            </fieldset>
+        </div>
+        <div class="mb-5 col-10 col-md-6 col-lg-4">
+            <fieldset>
+                <h2>Ausgabe</h2>
+                <div id="toSpell" class="output"></div>
+                <hr>
+                <div id="spellOutput" class="output"></div>
+            </fieldset>
+        </div>
+    </div>
+    <script language="javascript" type="text/javascript" src="js/bootstrap.js"></script>
     <script language="javascript" type="text/javascript" src="js/script.js"></script>
-    </body>
 </body>
 </html>

@@ -47,7 +47,7 @@ for (let i = 0; i < spellOutString.length; i++) {
     spellOut.push(text);
 }
 
-toSpell.innerHTML += `Buchstaben: ${spellOut.length}`;
+toSpell.innerHTML += `Zeichen: ${spellOut.length}`;
 console.log(spellOut);
 
 if (language == "Deutsch") {
@@ -350,7 +350,7 @@ else if (language == "International") {
                 break;
             default:
                 text = spellOut[i];
-                spellOutput.innerHTML += `${text}<br><hr>`
+                spellOutput.innerHTML += `${text}<br>`
                 break;
 
         }
@@ -377,3 +377,4 @@ else {
 
 console.log(spellOut);
 console.log("not broken");
+localStorage.clear();
